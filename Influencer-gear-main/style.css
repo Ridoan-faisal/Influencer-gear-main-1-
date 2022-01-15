@@ -1,0 +1,126 @@
+
+/* .............Start influencer collection ............. */
+
+
+.influencer-heading{
+    font-family: 'Work Sans', sans-serif;
+}
+.influencer{
+display: flex;
+}
+.influencer-part{
+    margin-left:5%;
+    font-family: 'Work Sans', sans-serif;
+}
+.influencers{
+    margin-top:5%;
+    width: 50%;
+}
+h1{
+    font-size: 40px;
+}
+.p-text {
+    font-weight: 400px;
+    color: gray;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+.influencers a{
+    text-decoration:none;
+    background-color: #B9345A;
+    color: white;
+    border-radius: 41px;
+    padding: 10px 25px;
+    font-size: 15px;
+
+}
+.influencer-img {
+    margin-left: 150px;
+}
+/*..................... Start new popular collection................. */
+.popular-title{
+    text-align: center;
+    color: #B9345A ;
+}
+
+.filed{
+    color: #FB9A30;
+}
+.empty{
+    color: gray;
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px 70px 20px 70px;
+}
+.popular-body{
+    box-shadow: 4px 4px 4px 4px rgb(221, 217, 217);
+    margin-left:15%;
+    margin-right:14%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* link section............................................. */
+.popular-collection-link{
+    margin-top: 3%;
+    padding-right: 4%; 
+}
+ .link a{
+     text-decoration: none;
+     background-color: #B9345A;
+     color: white;
+     border-radius: 41px;
+     padding: 10px 25px;
+     font-size: 15px;
+ }
+  .popular-collection-link{
+      text-align: right;
+      margin-right:5% ;
+  }
+  .product-description p {
+    font-weight: 400px;
+    color: gray;
+    line-height: 22px;
+    margin-bottom: 35px;
+  }
+
+  /* Powerbank section start from here ............................ */
+.Featured-product-title{
+    text-align: center;
+    color:#B9345A ;
+}
+  .Featured-product-img{
+      width: 500px;
+  }
+  .Featured-product-section{
+      display: flex;
+      margin-left: 5%;
+      margin-top:5%;
+   }
+   .product-description{
+     padding-top: 40px;
+       padding-left: 40px;
+    font-family: 'Work Sans', sans-serif;
+   }
+   .product-description a{
+    text-decoration: none;
+    background-color: #B9345A;
+    color: white;
+    border-radius: 41px;
+    padding: 10px 25px;
+    font-size: 15px;
+   }
+   /* footer section start ....................................... */
+   .Influencer-footer-section{
+       background-color: #0A0826;
+       margin-top: 40px;
+   }
+   .influencer-footer-body{
+       text-align: center;
+       color: white;
+       padding: 40px 40px;
+   }
